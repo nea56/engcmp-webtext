@@ -170,11 +170,78 @@ This code controls that cool parallax image and scrolling effect. Change the ima
 
 The following CSS is responsible for your photo grid .row, .column, .column img and @ media all work together to create your responsive image displays. Change the images on index.html.*/
 
+/* Ensure the photo grid is centered for one image */
 .photogrid {
-   text-align: center;
-   padding-top: 100px;
-   padding-bottom: 100px;
+  text-align: center;
+  padding: 20px;
 }
+
+.single-photo {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Aligns the image vertically in the center */
+}
+
+.single-photo img {
+  width: 150px; /* Set the specific width for the single image */
+  height: auto;
+  max-width: 100%; /* Ensures the image scales properly */
+}
+
+/* Ensure the photo grid is centered for one image */
+.photogrid {
+  text-align: center;
+  padding: 20px;
+}
+
+.single-photo {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Aligns the image vertically in the center */
+}
+
+.single-photo img {
+  width: 150px; /* Set the specific width for the single image */
+  height: auto;
+  max-width: 100%; /* Ensures the image scales properly */
+}
+
+/* Ensure the photo grid is centered for one image */
+.photogrid {
+  text-align: center;
+  padding: 20px;
+}
+
+.single-photo {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Aligns the image vertically in the center */
+}
+
+.single-photo img {
+  width: 150px; /* Set the specific width for the single image */
+  height: auto;
+  max-width: 100%; /* Ensures the image scales properly */
+}
+
+/* Ensure the photo grid is centered for one image */
+.photogrid {
+  text-align: center;
+  padding: 20px;
+}
+
+.single-photo {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Aligns the image vertically in the center */
+}
+
+.single-photo img {
+  width: 400px; /* Set the specific width for the single image */
+  height: auto;
+  max-width: 100%; /* Ensures the image scales properly */
+}
+
 
 .row {
     display: flex;
@@ -200,8 +267,8 @@ The following CSS is responsible for your photo grid .row, .column, .column img 
 /* Responsive layout - makes grid a one column-layout instead of two or three columns */
 @media screen and (max-width: 800px) {
     .column {
-        flex: 50%;
-        max-width: 60%;
+        flex: 75%;
+        max-width: 75%;
     }
 }
 /* - Preset Text Block Controls-
